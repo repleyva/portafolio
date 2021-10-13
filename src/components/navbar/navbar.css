@@ -69,12 +69,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
     color: white !important;
   }
 
   .nav-link:hover {
-    background-color: white;
+    background-color: white !important;
     color: var(--main-color) !important;
   }
 }
