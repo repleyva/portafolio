@@ -21,7 +21,18 @@
 }
 
 .profile-left h2 {
+	display: block;
   text-align: center;
+	font-weight: 600;
+	border: solid 1px var(--main-color);
+	border-radius: 5px;
+	font-size: 2em;
+	padding: 15px 0
+}
+.profile-left p {
+	font-size: 1.1em;
+	line-height: 1.6em;
+	color: #3F4848;
 }
 
 .profile-right {
