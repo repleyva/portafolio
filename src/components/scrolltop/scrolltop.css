@@ -18,8 +18,8 @@
 }
 
 .scroll-top-btn:hover {
-  background-color: var(--second-color) !important;
-  color: var(--main-color) !important;
+  background-color: var(--second-color);
+  color: var(--main-color);
 }
 
 .hidden {
