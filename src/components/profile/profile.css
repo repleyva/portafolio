@@ -27,13 +27,14 @@
 .profile-right {
   flex: 1;
   display: flex;
+	width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
 }
 
 .profile-right img {
-  width: 500px;
+  width: inherit;
   border-radius: 50%;
 }
 
