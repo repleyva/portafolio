@@ -1,40 +1,26 @@
+import "./profile.css";
 const Profile = () => {
-	return (
-    <section id="profile">
-      <h2>Profile</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, provident
-        impedit! Sapiente animi voluptatem voluptatibus dicta ducimus fugit ipsa
-        ratione nesciunt quaerat nemo voluptatum quia, doloribus corporis
-        deserunt eligendi exercitationem! Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Nobis officia quia eum, iure quos
-        voluptatem rerum veniam exercitationem totam similique recusandae
-        doloribus impedit! Nam molestiae suscipit quisquam veritatis alias
-        aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eius, provident impedit! Sapiente animi voluptatem voluptatibus dicta
-        ducimus fugit ipsa ratione nesciunt quaerat nemo voluptatum quia,
-        doloribus corporis deserunt eligendi exercitationem! Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Nobis officia quia eum, iure quos
-        voluptatem rerum veniam exercitationem totam similique recusandae
-        doloribus impedit! Nam molestiae suscipit quisquam veritatis alias
-        aspernatur?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eius, provident impedit! Sapiente animi voluptatem voluptatibus dicta
-        ducimus fugit ipsa ratione nesciunt quaerat nemo voluptatum quia,
-        doloribus corporis deserunt eligendi exercitationem! Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Nobis officia quia eum, iure quos
-        voluptatem rerum veniam exercitationem totam similique recusandae
-        doloribus impedit! Nam molestiae suscipit quisquam veritatis alias
-        aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eius, provident impedit! Sapiente animi voluptatem voluptatibus dicta
-        ducimus fugit ipsa ratione nesciunt quaerat nemo voluptatum quia,
-        doloribus corporis deserunt eligendi exercitationem! Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Nobis officia quia eum, iure quos
-        voluptatem rerum veniam exercitationem totam similique recusandae
-        doloribus impedit! Nam molestiae suscipit quisquam veritatis alias
-        aspernatur?
-      </p>
+  return (
+    <section id="profile" className="profile-container">
+      <div className="profile-container-wrapper">
+        <div className="profile-right">
+          <img src="assets/perfil.png" alt="perfil" />
+        </div>
+        <div className="profile-left">
+          <h2>Perfil Profesional</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laborum
+            ratione nobis modi ex. Id, molestias porro dicta recusandae,
+            accusantium animi mollitia nam quod, nostrum voluptatibus obcaecati
+            itaque voluptate quam. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Doloribus eveniet nemo illo iste suscipit mollitia
+            aut blanditiis corporis! Iste eveniet itaque animi explicabo quos
+            deserunt aut, dicta fugiat beatae nulla!
+          </p>
+        </div>
+      </div>
     </section>
   );
-}
+};
 
-export default Profile
+export default Profile;

@@ -25,6 +25,7 @@ html {
 
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* Estilos de la barra de scroll */
