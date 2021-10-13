@@ -1,0 +1,15 @@
+@import "../../index.css";
+.ityped-cursor {
+  animation: blink 1s infinite;
+  color: var(--main-color);
+	font-weight: 800;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

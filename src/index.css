@@ -1,8 +1,7 @@
 /* Reseteo de los estilos */
 
 :root {
-	--main-color: #5c802d;
-	--accent-color: #759152;
+	--main-color: #008037;
 }
 
 html {
@@ -35,6 +34,6 @@ html::-webkit-scrollbar-thumb {
 
 /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
 html::-webkit-scrollbar-thumb:hover {
-    background: var(--accent-color);
+    background: var(--main-color);
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
