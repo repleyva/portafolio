@@ -17,25 +17,25 @@ const Navbar = () => {
         <li className="nav-item">
           <Link
             className="nav-link"
-            activeClass="active"
+            activeClass={`${classes.active}`}
             spy={true}
             to="banner"
             smooth={true}
-            offset={0}
+            offset={-20}
             duration={500}
           >
             <Home className={classes.icon} />
-            <span className="nav-span active">INICIO</span>
+            <span className="nav-span active-start">INICIO</span>
           </Link>
         </li>
         <li className="nav-item">
           <Link
             className="nav-link"
-            activeClass="active"
+            activeClass={`${classes.active}`}
             spy={true}
             to="profile"
             smooth={true}
-            offset={0}
+            offset={-20}
             duration={500}
           >
             <PersonPin className={classes.icon} />
@@ -45,11 +45,11 @@ const Navbar = () => {
         <li className="nav-item">
           <Link
             className="nav-link"
-            activeClass="active"
+            activeClass={`${classes.active}`}
             spy={true}
             to="skills"
             smooth={true}
-            offset={0}
+            offset={-20}
             duration={500}
           >
             <Code className={classes.icon} />
@@ -59,11 +59,11 @@ const Navbar = () => {
         <li className="nav-item">
           <Link
             className="nav-link"
-            activeClass="active"
+            activeClass={`${classes.active}`}
             spy={true}
             to="portfolio"
             smooth={true}
-            offset={0}
+            offset={-20}
             duration={500}
           >
             <PhotoLibrary className={classes.icon} />
@@ -73,11 +73,11 @@ const Navbar = () => {
         <li className="nav-item">
           <Link
             className="nav-link"
-            activeClass="active"
+            activeClass={`${classes.active}`}
             spy={true}
             to="contact"
             smooth={true}
-            offset={0}
+            offset={-20}
             duration={500}
           >
             <InsertComment className={classes.icon} />
@@ -96,6 +96,11 @@ const useStyles = makeStyles((theme) => ({
       display: "block !important",
       fontSize: "1.2rem !important",
     },
+  },
+
+  active: {
+    color: "var(--main-color) !important",
+    backgroundColor: "white !important",
   },
 }));
 
