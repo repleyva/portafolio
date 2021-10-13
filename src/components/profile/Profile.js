@@ -9,13 +9,15 @@ const Profile = () => {
         <div className="profile-left">
           <h2>Perfil Profesional</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laborum
-            ratione nobis modi ex. Id, molestias porro dicta recusandae,
-            accusantium animi mollitia nam quod, nostrum voluptatibus obcaecati
-            itaque voluptate quam. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Doloribus eveniet nemo illo iste suscipit mollitia
-            aut blanditiis corporis! Iste eveniet itaque animi explicabo quos
-            deserunt aut, dicta fugiat beatae nulla!
+            ¡Hola!, me llamo Rusvel Pasos, soy{" "}
+            <b>Frontend (UI-UX) developer junior</b>, hábil en el manejo de
+            herramientas para el desarrollo web. Soy un apacionado por la
+            programación y el desarrollo de aplicativos e interfaces de usuario.
+            Trabajo como freelance, desarrollando aplicativos webs y{" "}
+            <b>aplicaciones moviles android nativas</b>. Actualmente estoy en
+            ultimo semestre de Ingeniería electrónica. Trabajo de manera
+            conjunta con los clientes para lograr una rápida y eficaz solución a
+            cada problema, asesorando y coordinando hasta el último detalle.
           </p>
         </div>
       </div>

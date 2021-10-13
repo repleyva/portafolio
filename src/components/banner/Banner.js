@@ -74,9 +74,12 @@ const useStyles = makeStyles((theme) => ({
   },
 
   title: {
-    fontSize: "3rem",
+    fontSize: "5rem",
     margin: "0",
     padding: "0",
+    ["@media (max-width:1000px)"]: {
+      fontSize: "3rem",
+    },
   },
 
   desc: {
