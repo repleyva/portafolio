@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     ["@media (max-width:760px)"]: {
       backgroundPosition: "right",
-      height: "calc(100vh - 300px)",
+      height: "300px",
     },
   },
 
