@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   desc: {
-    fontSize: "1.2rem",
+    fontSize: "1rem",
     fontWeight: "300",
   },
 
