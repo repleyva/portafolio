@@ -26,13 +26,5 @@ function App() {
 }
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundImage: "url(assets/fondo.jpg)",
-    objectFit: "cover",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-		backgroundAttachment: "fixed"
-  },
 }));
 export default App;
