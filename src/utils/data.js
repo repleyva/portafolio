@@ -10,9 +10,4 @@ export const data = [
     title: "Netflix Clone App",
     img: "https://netflix-clone-repleyva.netlify.app/clone.png",
   },
-  {
-    id: 3,
-    title: "Netflix Clone App",
-    img: "https://netflix-clone-repleyva.netlify.app/clone.png",
-  },
 ];

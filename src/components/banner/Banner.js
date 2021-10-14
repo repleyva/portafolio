@@ -1,5 +1,4 @@
 import { makeStyles } from "@mui/styles";
-import banner from "../../images/banner.png";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import "./banner.css"
@@ -42,7 +41,7 @@ const Banner = () => {
 const useStyles = makeStyles((theme) => ({
   root: {
     /* backgroundColor: "#000", */
-    backgroundImage: `url(${banner})`,
+    backgroundImage: `url(assets/banner.png)`,
     width: "100%",
     height: "calc(100vh - 100px)",
     objectFit: "cover",
