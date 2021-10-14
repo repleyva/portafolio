@@ -8,6 +8,14 @@
 .port-container h2 {
   text-align: center;
   font-size: 2em;
+	margin-right: 1rem;
+	margin-right: 1rem;
+}
+
+.port-container-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .gallery-container {
