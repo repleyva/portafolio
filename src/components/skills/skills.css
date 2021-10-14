@@ -6,8 +6,8 @@
   background-color: var(--main-color);
   padding-bottom: 20px;
   transition: all 0.5s ease;
-  margin-bottom: 1rem;
-  padding-top: 3rem;
+  margin-bottom: 10rem;
+  padding-top: 5rem;
 }
 
 .skills-container h2 {

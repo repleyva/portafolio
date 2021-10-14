@@ -1,9 +1,8 @@
 @import "../../index.css";
 
 .contact {
-  margin-top: 0;
-	padding-top: 15px;
-  background-color: var(--main-color);
+  margin-top: 6rem;
+  background-color: var(--accent-color);
 }
 
 .contact-title h2 {
