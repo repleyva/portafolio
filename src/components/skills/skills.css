@@ -5,6 +5,7 @@
   height: auto;
   background-color: var(--accent-color);
 	padding-bottom: 20px;
+	transition: all 1s ease;
 }
 
 .skills-container h2 {
@@ -58,8 +59,9 @@
 }
 
 .skills-list li img {
-  width: 90%;
+  width: 100%;
   max-width: 100%;
 	min-width: 100px;
   border-style: none;
+
 }
