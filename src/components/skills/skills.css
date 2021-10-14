@@ -3,23 +3,26 @@
 .skills-container {
   width: 100%;
   height: auto;
-  background-color: var(--accent-color);
-	padding-bottom: 20px;
-	transition: all .5s ease;
-	margin: 5rem 0;
+  background-color: var(--main-color);
+  padding-bottom: 20px;
+  transition: all 0.5s ease;
+  margin-bottom: 10rem;
+  padding-top: 5rem;
 }
 
 .skills-container h2 {
-	position: relative;
-	display: inline;
-	padding: .5rem 1rem;
+  position: relative;
+  display: inline;
   font-size: 2em;
-	background-color: white;
+	padding: 0.5rem 5rem;
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 5px;
 }
 
 .skills-title {
-	width: 100%;
-	text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .skills-list-container {
@@ -36,14 +39,14 @@
   align-items: center;
   list-style: none;
   padding: 0;
-	transition: all .5s ease;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  transition: all 0.5s ease;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 @media (max-width: 1000px) {
   .skills-list {
-		width: 100%;
-	}
+    width: 100%;
+  }
 }
 
 .skills-list li {
@@ -60,7 +63,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   display: block;
-  color: #3f4848;
+  color: #fff;
   font-weight: 600;
   box-shadow: 0 0 5px rgb(0 0 0 / 30%);
   margin: 15px 0;
@@ -69,7 +72,6 @@
 .skills-list li img {
   width: 100%;
   max-width: 100%;
-	min-width: 100px;
+  min-width: 100px;
   border-style: none;
-
 }

@@ -1,7 +1,6 @@
 import "./portfolio.css";
 import { data } from "../../utils/data.js";
 import LinkIcon from "@mui/icons-material/Link";
-import WorkIcon from "@mui/icons-material/Work";
 
 const Portfolio = () => {
   const handleClick = (el) => {
@@ -17,8 +16,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="port-container">
       <div className="port-container-title">
-        <h2>Portfolio</h2>
-        <WorkIcon className="port-icon" />
+        <h2>Portafolio</h2>
       </div>
       <div className="gallery-container">
         {data.map((el, key) => (

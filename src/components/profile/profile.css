@@ -1,10 +1,10 @@
 .profile-container {
   width: 100%;
-  margin: 2rem 0;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+	background-color: #fff;
 }
 
 .profile-container-wrapper {

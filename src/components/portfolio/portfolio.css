@@ -1,21 +1,22 @@
 @import "../../index.css";
 
-
 .port-container {
   width: 100%;
+  background-color: #fff;
 }
 
 .port-container h2 {
   text-align: center;
   font-size: 2em;
-	margin-right: 1rem;
-	margin-right: 1rem;
+  padding: 0.5rem 5rem;
+  border: solid 1px var(--main-color);
+  border-radius: 5px;
 }
 
 .port-container-title {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-container {
@@ -46,7 +47,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-	-webkit-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -54,48 +55,48 @@
 }
 
 .port-overlay {
-	display: none;
-	width: 100%;
+  display: none;
+  width: 100%;
   position: absolute;
   bottom: 0;
-	justify-content: space-between;
-	align-items: center;
-	transition: all 0.3s ease-out;
-  padding: .7rem;
-	line-height: 10px;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-out;
+  padding: 0.7rem;
+  line-height: 10px;
 }
 
 .gallery__title {
   margin: 0;
-	padding: 0;
-	font-size: 1rem;
-	margin-top: 10px;
+  padding: 0;
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
 .gallery__title-container p {
-	font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .port-overlay span .img {
   width: 22px;
-	border-radius: 50%;
-	object-fit: cover;
-	color: #fff;
+  border-radius: 50%;
+  object-fit: cover;
+  color: #fff;
 }
 
 .card {
-	margin: 0;
+  margin: 0;
   background-color: var(--second-color);
   color: var(--main-color);
 }
 
 .gallery__item:hover > .port-overlay {
-	display: flex;
+  display: flex;
   background-color: var(--main-color);
-	color: white;
+  color: white;
 }
 
-.gallery__item:hover > .gallery__img{
+.gallery__item:hover > .gallery__img {
   opacity: 0.5;
 }
 
