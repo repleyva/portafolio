@@ -1,0 +1,65 @@
+@import "../../index.css";
+
+.skills-container {
+  width: 100%;
+  height: auto;
+  background-color: var(--accent-color);
+	padding-bottom: 20px;
+}
+
+.skills-container h2 {
+	position: relative;
+	display: inline;
+	padding: .5rem 1rem;
+  font-size: 2em;
+	background-color: white;
+}
+
+.skills-title {
+	width: 100%;
+	text-align: center;
+}
+
+.skills-list-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-list {
+  display: grid;
+  width: 80%;
+  margin-top: 45px;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.skills-list li {
+  flex: auto;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.skills-list li span {
+  line-height: 50px;
+  border-radius: 25px;
+  padding: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  color: #3f4848;
+  font-weight: 600;
+  box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+  margin: 15px 0;
+}
+
+.skills-list li img {
+  width: 90%;
+  max-width: 100%;
+	min-width: 100px;
+  border-style: none;
+}

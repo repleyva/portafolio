@@ -1,38 +1,39 @@
+import "./skills.css";
+
 const Skills = () => {
   return (
-    <section id="skills">
-      <h2>Skills</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, provident
-        impedit! Sapiente animi voluptatem voluptatibus dicta ducimus fugit ipsa
-        ratione nesciunt quaerat nemo voluptatum quia, doloribus corporis
-        deserunt eligendi exercitationem! Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Nobis officia quia eum, iure quos
-        voluptatem rerum veniam exercitationem totam similique recusandae
-        doloribus impedit! Nam molestiae suscipit quisquam veritatis alias
-        aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eius, provident impedit! Sapiente animi voluptatem voluptatibus dicta
-        ducimus fugit ipsa ratione nesciunt quaerat nemo voluptatum quia,
-        doloribus corporis deserunt eligendi exercitationem! Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Nobis officia quia eum, iure quos
-        voluptatem rerum veniam exercitationem totam similique recusandae
-        doloribus impedit! Nam molestiae suscipit quisquam veritatis alias
-        aspernatur?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eius, provident impedit! Sapiente animi voluptatem voluptatibus dicta
-        ducimus fugit ipsa ratione nesciunt quaerat nemo voluptatum quia,
-        doloribus corporis deserunt eligendi exercitationem! Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Nobis officia quia eum, iure quos
-        voluptatem rerum veniam exercitationem totam similique recusandae
-        doloribus impedit! Nam molestiae suscipit quisquam veritatis alias
-        aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eius, provident impedit! Sapiente animi voluptatem voluptatibus dicta
-        ducimus fugit ipsa ratione nesciunt quaerat nemo voluptatum quia,
-        doloribus corporis deserunt eligendi exercitationem! Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Nobis officia quia eum, iure quos
-        voluptatem rerum veniam exercitationem totam similique recusandae
-        doloribus impedit! Nam molestiae suscipit quisquam veritatis alias
-        aspernatur?
-      </p>
+    <section id="skills" className="skills-container">
+      <div className="skills-title">
+        <h2>Habilidades</h2>
+      </div>
+      <div className="skills-list-container grid-fluid">
+        <ul className="skills-list">
+          <li>
+            <img src="assets/html.png" alt="html" />
+            <span>HTML</span>
+          </li>
+          <li>
+            <img src="assets/css.png" alt="css" />
+            <span>CSS</span>
+          </li>
+          <li>
+            <img src="assets/javascript.png" alt="js" />
+            <span>JS</span>
+          </li>
+          <li>
+            <img src="assets/react.png" alt="react" />
+            <span>REACT.JS</span>
+          </li>
+          <li>
+            <img src="assets/java.png" alt="java" />
+            <span>JAVA</span>
+          </li>
+          <li>
+            <img src="assets/ux.png" alt="ux" />
+            <span>UI/UX</span>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
