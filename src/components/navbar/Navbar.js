@@ -21,7 +21,7 @@ const Navbar = () => {
             spy={true}
             to="banner"
             smooth={true}
-            offset={-25}
+            offset={0}
             duration={500}
           >
             <Home className={classes.icon} />
@@ -35,7 +35,7 @@ const Navbar = () => {
             spy={true}
             to="profile"
             smooth={true}
-            offset={-25}
+            offset={0}
             duration={500}
           >
             <PersonPin className={classes.icon} />
@@ -49,7 +49,7 @@ const Navbar = () => {
             spy={true}
             to="skills"
             smooth={true}
-            offset={-25}
+            offset={0}
             duration={500}
           >
             <Code className={classes.icon} />
@@ -63,7 +63,7 @@ const Navbar = () => {
             spy={true}
             to="portfolio"
             smooth={true}
-            offset={-25}
+            offset={0}
             duration={500}
           >
             <PhotoLibrary className={classes.icon} />
@@ -77,7 +77,7 @@ const Navbar = () => {
             spy={true}
             to="contact"
             smooth={true}
-            offset={-25}
+            offset={0}
             duration={500}
           >
             <InsertComment className={classes.icon} />
