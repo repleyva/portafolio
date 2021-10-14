@@ -5,7 +5,8 @@
   height: auto;
   background-color: var(--accent-color);
 	padding-bottom: 20px;
-	transition: all 1s ease;
+	transition: all .5s ease;
+	margin: 5rem 0;
 }
 
 .skills-container h2 {
@@ -35,6 +36,7 @@
   align-items: center;
   list-style: none;
   padding: 0;
+	transition: all .5s ease;
 	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 

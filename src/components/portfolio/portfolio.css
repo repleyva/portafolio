@@ -1,0 +1,90 @@
+@import "../../index.css";
+
+
+.port-container {
+  width: 100%;
+}
+
+.port-container h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-flow: 150px;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery__item {
+  /* display: flex; */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.gallery__img {
+  position: relative;
+  /* visibility: hidden; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+	-webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.port-overlay {
+	display: none;
+	width: 100%;
+  position: absolute;
+  bottom: 0;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 0.3s ease-out;
+  padding: 1rem;
+}
+
+.gallery__title {
+  margin: 0;
+	padding: 0;
+	font-size: 1.5rem;
+}
+
+.port-overlay span .img {
+  width: 22px;
+	border-radius: 50%;
+	object-fit: cover;
+	color: #fff;
+}
+
+.card {
+	margin: 0;
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+.gallery__item:hover > .port-overlay {
+	display: flex;
+  background-color: var(--main-color);
+	color: white;
+}
+
+.gallery__item:hover > .gallery__img{
+  opacity: 0.5;
+}
+
+.gallery__item:hover {
+  background-color: var(--main-color);
+}
