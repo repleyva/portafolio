@@ -6,7 +6,10 @@
 }
 
 .port-container h2 {
-  text-align: center;
+	display: flex;
+	width: 50%;
+	justify-content: center;
+  align-items: center;
   font-size: 2em;
   padding: 0.5rem;
   border: solid 1px var(--main-color);
@@ -102,4 +105,10 @@
 
 .gallery__item:hover {
   background-color: var(--main-color);
+}
+
+@media (max-width: 1000px) {
+  .port-container h2 {
+		width: 80%;
+	}
 }

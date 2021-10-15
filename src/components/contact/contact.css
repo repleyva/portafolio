@@ -5,17 +5,26 @@
 }
 
 .contact-title h2 {
-  text-align: center;
+	width: 50%;
+	display: flex;
   font-size: 2em;
 	color: #fff;
 	padding: 0.5rem;
   border: solid 1px #fff;
   border-radius: 5px;
+	justify-content: center;
+  align-items: center;
 }
 
 .contact-title {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .contact-title h2 {
+		width: 80%;
+	}
 }
 

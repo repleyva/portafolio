@@ -6,22 +6,25 @@
   background-color: var(--main-color);
   padding-bottom: 20px;
   transition: all 0.5s ease;
-  padding-top: 2rem;
 }
 
 .skills-container h2 {
-  position: relative;
-  display: inline;
+  width: 50%;
+  display: flex;
   font-size: 2em;
-	padding: 0.5rem;
+  padding: 0.5rem;
   color: #fff;
   border: solid 1px #fff;
   border-radius: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  text-align: center;
 }
 
 .skills-list-container {
@@ -45,6 +48,10 @@
 @media (max-width: 1000px) {
   .skills-list {
     width: 100%;
+  }
+
+  .skills-container h2 {
+    width: 80%;
   }
 }
 
