@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
     /* backgroundColor: "#000", */
     backgroundImage: `url(assets/banner.png)`,
     width: "100%",
-    height: "calc(100vh - 100px)",
+    height: "calc(100vh - 90px)",
     objectFit: "cover",
     backgroundSize: "cover",
     backgroundPosition: "center",
@@ -94,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
     right: 0,
     zIndex: 3,
     backgroundImage:
-      "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
+      "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
   },
 
   fadeTop: {
@@ -105,7 +105,7 @@ const useStyles = makeStyles((theme) => ({
     right: 0,
     zIndex: 3,
     backgroundImage:
-      "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
+      "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
   },
 }));
 
