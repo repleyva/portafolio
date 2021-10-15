@@ -1,6 +1,6 @@
 import { makeStyles } from "@mui/styles";
 import { init } from "ityped";
-import { useEffect, useRef } from "react";
+import { memo, useEffect, useRef } from "react";
 import "./banner.css"
 
 const Banner = () => {
@@ -109,4 +109,4 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default Banner;
+export default memo(Banner);
