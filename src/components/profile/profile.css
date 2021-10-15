@@ -1,6 +1,6 @@
 .profile-container {
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,12 +53,12 @@
 @media (max-width: 1000px) {
   .profile-container {
     padding: 0rem 10px;
-		padding-top: 1rem;
+		padding-top: 2rem;
   }
   .profile-container-wrapper {
     width: 100%;
     display: flex;
-    gap: 1.5rem;
+    gap: .5rem;
     flex-direction: column;
   }
 }
