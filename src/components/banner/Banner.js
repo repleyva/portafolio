@@ -94,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
     right: 0,
     zIndex: 3,
     backgroundImage:
-      "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
+      "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
   },
 
   fadeTop: {
@@ -105,7 +105,7 @@ const useStyles = makeStyles((theme) => ({
     right: 0,
     zIndex: 3,
     backgroundImage:
-      "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
+      "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
   },
 }));
 
