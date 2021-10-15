@@ -112,7 +112,7 @@ input[type="submit"] {
 .container-form__send {
   width: 100%;
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -139,7 +139,7 @@ input[type="submit"] {
 
 .error:hover {
   background-color: red;
-	color: #fff;
+  color: #fff;
   opacity: 0.6;
 }
 
@@ -153,5 +153,8 @@ input[type="submit"] {
   .container-form__ne {
     flex-direction: column;
     gap: 0rem;
+  }
+  .contact-c p {
+    width: 80%;
   }
 }
