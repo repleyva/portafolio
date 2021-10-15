@@ -1,20 +1,27 @@
 @import "../../index.css";
 
 .scroll-top-btn {
+  display: flex;
   position: fixed;
   z-index: 999;
   bottom: 10vh;
-  right: .5rem;
+  right: 0.5rem;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   background: var(--main-color);
   color: white;
   outline: 0;
   border: 0;
   transition: all 0.3s ease-out;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-scroll {
+  font-size: 48px !important;
 }
 
 .scroll-top-btn:hover {
