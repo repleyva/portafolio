@@ -25,7 +25,7 @@ const Footer = () => {
           <img src="assets/twitter.png" alt="twitter" />
         </a>
         <a
-          href="https://wa.me/+573158160633/?text=Hola Rusvel, ¿Cómo estás?, %0AMe comunico contigo desde tu portafolio web. Me gustaría solicitar tus servicios como desarrollador."
+          href="https://wa.me/+573126044003/?text=Hola Rusvel, ¿Cómo estás?, %0AMe comunico contigo desde tu portafolio web. Me gustaría solicitar tus servicios como desarrollador."
           target="_blank"
           rel="noopener noreferrer"
         >
