@@ -6,9 +6,9 @@
 }
 
 .port-container h2 {
-	display: flex;
-	width: 50%;
-	justify-content: center;
+  display: flex;
+  width: 50%;
+  justify-content: center;
   align-items: center;
   font-size: 2em;
   padding: 0.5rem;
@@ -109,12 +109,12 @@
 
 @media (max-width: 1000px) {
   .port-container h2 {
-		width: 80%;
-	}
+    width: 80%;
+  }
 }
 
 @media (max-width: 300px) {
-	.gallery-container {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
+  .gallery-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }

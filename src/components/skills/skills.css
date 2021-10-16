@@ -45,20 +45,52 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
-@media (min-width: 700px) and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .skills-list {
-    width: 70%;
+    width: 60%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
 
 @media (max-width: 1000px) {
   .skills-list {
-    width: 100%;
+    width: 70%;
   }
 
   .skills-container h2 {
+    width: 90%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 870px) {
+  .skills-list {
+    width: 90%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .skills-list {
     width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-list {
+    width: 100%;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  .skills-list {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 350px) {
+  .skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
 
