@@ -112,3 +112,9 @@
 		width: 80%;
 	}
 }
+
+@media (max-width: 300px) {
+	.gallery-container {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+}

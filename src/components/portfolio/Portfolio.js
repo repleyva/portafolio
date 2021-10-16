@@ -11,8 +11,8 @@ const Portfolio = () => {
       </div>
       <div className="gallery-container">
         {data.map((el, key) => (
-          <a href={el.link} target="_blank" rel="noopener noreferrer">
-            <figure key={key} className="gallery__item card">
+          <a key={key} href={el.link} target="_blank" rel="noopener noreferrer">
+            <figure className="gallery__item card">
               <img src={el.img} alt={el.title} className="gallery__img" />
               <figcaption className="port-overlay">
                 <div className="gallery__title-container">

@@ -45,6 +45,13 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
+@media (min-width: 700px) and (max-width: 1200px) {
+  .skills-list {
+    width: 70%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
 @media (max-width: 1000px) {
   .skills-list {
     width: 100%;
@@ -52,6 +59,12 @@
 
   .skills-container h2 {
     width: 80%;
+  }
+}
+
+@media (max-width: 300px) {
+  .skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 }
 
