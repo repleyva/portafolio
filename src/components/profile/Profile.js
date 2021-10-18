@@ -20,6 +20,13 @@ const Profile = () => {
             una rápida y eficaz solución a cada problema, asesorando y
             coordinando hasta el último detalle.
           </p>
+          <a
+            href="assets/CV-RUSVEL_ENRIQUE_PASOS_LEYVA.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <input type="button" value="DESCARGA MI CV" />
+          </a>
         </div>
       </div>
     </section>
