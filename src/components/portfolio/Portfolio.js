@@ -17,7 +17,7 @@ const Portfolio = () => {
               <figcaption className="port-overlay">
                 <div className="gallery__title-container">
                   <h3 className="gallery__title">{el.title}</h3>
-                  <p>Sitio Responsivo</p>
+                  <p>Sitio Responsivo/{el.desc}</p>
                 </div>
                 <span>
                   <LinkIcon className="img" />
