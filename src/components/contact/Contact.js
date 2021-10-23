@@ -9,7 +9,7 @@ const Contact = () => {
         </div>
         <div className="contact-c">
           <p>
-            Si estás interezado en mis servicios puedes contactarme por{" "}
+            Si estás interesado/a en mis servicios puedes contactarme por{" "}
             <b>correo electrónico</b> o por <b>WhatsApp</b>.
           </p>
         </div>
