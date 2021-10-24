@@ -27,7 +27,7 @@ const Banner = () => {
       <div className={classes.fadeTop}></div>
       <div className={classes.container}>
         <div className={classes.containerInfo}>
-          <h1 className={classes.title} style={{["-webkit-text-stroke"]: ""}}>Repleyva</h1>
+          <h1 className={classes.title}>Repleyva</h1>
           <h4 className={classes.desc}>
             <span ref={textRef}></span>
           </h4>
@@ -77,8 +77,9 @@ const useStyles = makeStyles((theme) => ({
     padding: "2rem 0",
     borderRadius: "50%",
     backgroundColor: "rgba(0, 0, 0, 0.2)",
+		textShadow: "3px 3px 3px #000",
     ["@media (max-width:1000px)"]: {
-      width: "100%",
+      width: "90%",
       height: "100%",
     },
   },
