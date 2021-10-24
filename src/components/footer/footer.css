@@ -23,6 +23,7 @@
 .footer-message {
   font-size: 12px;
   color: var(--main-color);
+	text-align: center;
 }
 
 @media (max-width: 1000px) {

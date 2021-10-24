@@ -73,14 +73,14 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     zIndex: "10",
     width: "80%",
-    height: "180%",
+    height: "80%",
     padding: "2rem 0",
     borderRadius: "50%",
-    backgroundColor: "rgba(0, 0, 0, 0.2)",
+    //backgroundColor: "rgba(0, 0, 0, 0.2)",
 		textShadow: "3px 3px 3px #008037",
     ["@media (max-width:1000px)"]: {
       width: "90%",
-      height: "100%",
+      height: "90%",
     },
   },
 
