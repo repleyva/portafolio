@@ -1,4 +1,10 @@
 export const data = [
+{
+    title: "Dashboard Theme",
+    img: "assets/dashboard-theme.png",
+    link: "https://dashboard-theme.netlify.app/",
+    desc: "React/Redux/Apexcharts",
+  },
   {
     title: "Hotel Reservation App",
     img: "assets/reservation-hotel-app.png",
