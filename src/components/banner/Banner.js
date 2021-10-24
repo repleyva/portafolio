@@ -94,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   desc: {
-    fontSize: "2rem",
+    fontSize: "1.5rem",
     fontWeight: "400",
     ["@media (max-width:1000px)"]: {
       fontSize: "1rem",
