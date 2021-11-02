@@ -77,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "2rem 0",
     borderRadius: "50%",
     //backgroundColor: "rgba(0, 0, 0, 0.2)",
-		textShadow: "3px 3px 3px #008037",
+    textShadow: "3px 3px 3px #008037",
     ["@media (max-width:1000px)"]: {
       width: "90%",
       height: "90%",
@@ -110,6 +110,11 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 3,
     backgroundImage:
       "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
+    ["@media (max-width:740px)"]: {
+      top: "20vh",
+      backgroundImage:
+        "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8))",
+    },
   },
 
   fadeTop: {
@@ -121,6 +126,11 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 3,
     backgroundImage:
       "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
+    ["@media (max-width:740px)"]: {
+      bottom: "20vh",
+      backgroundImage:
+        "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8))",
+    },
   },
 }));
 
