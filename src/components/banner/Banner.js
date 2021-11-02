@@ -113,7 +113,7 @@ const useStyles = makeStyles((theme) => ({
     ["@media (max-width:740px)"]: {
       top: "20vh",
       backgroundImage:
-        "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8))",
+        "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .8))",
     },
   },
 
@@ -129,7 +129,7 @@ const useStyles = makeStyles((theme) => ({
     ["@media (max-width:740px)"]: {
       bottom: "20vh",
       backgroundImage:
-        "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8))",
+        "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .8))",
     },
   },
 }));
