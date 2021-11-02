@@ -18,6 +18,19 @@ const Portfolio = () => {
                 <div className="gallery__title-container">
                   <h3 className="gallery__title">{el.title}</h3>
                   <p>{el.desc}</p>
+                  {el.note && (
+                    <p>
+                      {el.note}: {" "}
+                      <a
+                        href={el.linkNote}
+                        target="_blank"
+                        rel="noopener noreferrer"
+												style={{color: "#fff"}}
+                      >
+												Ayuda
+											</a>
+                    </p>
+                  )}
                 </div>
                 <span>
                   <LinkIcon className="img" />

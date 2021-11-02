@@ -4,6 +4,9 @@ export const data = [
     img: "assets/weather-news-app.png",
     link: "https://news-weather-app.netlify.app/",
     desc: "Sitio Responsivo/React/contextAPI/CSS/",
+    note: "Nota: Es posible que las noticias no te carguen, ya que uso una api gratuita, para solucionar revisa este link",
+    linkNote:
+      "https://experienceleague.adobe.com/docs/target/using/experiences/vec/troubleshoot-composer/mixed-content.html?lang=es",
   },
   {
     title: "Dashboard Theme",

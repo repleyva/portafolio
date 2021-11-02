@@ -113,7 +113,7 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 340px) {
   .gallery-container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
