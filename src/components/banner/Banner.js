@@ -111,9 +111,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage:
       "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
     ["@media (max-width:760px)"]: {
-      top: "10vh",
+      top: "0%",
       backgroundImage:
-        "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .8))",
+        "linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7))",
     },
   },
 
@@ -127,9 +127,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage:
       "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))",
     ["@media (max-width:760px)"]: {
-      bottom: "10vh",
+      bottom: "0%",
       backgroundImage:
-        "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .8))",
+        "linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7))",
     },
   },
 }));
