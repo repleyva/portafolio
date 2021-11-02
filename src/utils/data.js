@@ -1,5 +1,11 @@
 export const data = [
   {
+    title: "News and Weather App",
+    img: "assets/weather-news-app.png",
+    link: "https://news-weather-app.netlify.app/",
+    desc: "Sitio Responsivo/React/contextAPI/CSS/",
+  },
+  {
     title: "Dashboard Theme",
     img: "assets/dashboard-theme.png",
     link: "https://dashboard-theme.netlify.app/",
