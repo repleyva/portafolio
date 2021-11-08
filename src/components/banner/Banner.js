@@ -27,7 +27,7 @@ const Banner = () => {
       <div className={classes.fadeTop}></div>
       <div className={classes.container}>
         <div className={classes.containerInfo}>
-          <h1 className={classes.title}>Devleyva</h1>
+          <h1 className={classes.title}>Repleyva</h1>
           <h4 className={classes.desc}>
             <span ref={textRef}></span>
           </h4>
