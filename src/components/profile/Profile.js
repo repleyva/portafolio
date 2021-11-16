@@ -21,7 +21,7 @@ const Profile = () => {
             coordinando hasta el último detalle.
           </p>
           <a
-            href="assets/CV-RUSVEL_ENRIQUE_PASOS_LEYVA.pdf"
+            href="assets/CV_RUSVEL_ENRIQUE_PASOS_LEYVA.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
