@@ -1,5 +1,11 @@
 export const data = [
   {
+    title: "Yolo E-Commerce",
+    img: "assets/yolo-ecommerce.png",
+    link: "https://ecommerce-yolo-app.netlify.app/",
+    desc: "Sitio Responsivo/React/SASS/Redux/",
+  },
+  {
     title: "News and Weather App",
     img: "assets/weather-news-app.png",
     link: "https://news-weather-app.netlify.app/",
