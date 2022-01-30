@@ -4,7 +4,7 @@ const Profile = () => {
     <section id="profile" className="profile-container">
       <div className="profile-container-wrapper">
         <div className="profile-right">
-          <img src="assets/perfil.png" alt="perfil" />
+          <img src="assets/perfil.jpg" alt="perfil" />
         </div>
         <div className="profile-left">
           <h2>Perfil Profesional</h2>

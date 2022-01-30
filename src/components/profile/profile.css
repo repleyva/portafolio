@@ -72,6 +72,7 @@ input[type="button"]:hover {
   align-items: center;
   margin: 0 auto;
 }
+
 .profile-left p {
   font-size: 1.1em;
   line-height: 1.6em;
@@ -90,6 +91,7 @@ input[type="button"]:hover {
 .profile-right img {
   width: inherit;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 @media (max-width: 1000px) {
