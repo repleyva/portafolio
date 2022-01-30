@@ -1,4 +1,5 @@
 import "./skills.css";
+import { skills } from "../../utils/data";
 
 const Skills = () => {
   return (
@@ -8,30 +9,12 @@ const Skills = () => {
       </div>
       <div className="skills-list-container grid-fluid">
         <ul className="skills-list">
-          <li>
-            <img src="assets/html.png" alt="html" />
-            <span>HTML</span>
-          </li>
-          <li>
-            <img src="assets/css.png" alt="css" />
-            <span>CSS</span>
-          </li>
-          <li>
-            <img src="assets/javascript.png" alt="js" />
-            <span>JS</span>
-          </li>
-          <li>
-            <img src="assets/react.png" alt="react" />
-            <span>REACT.JS</span>
-          </li>
-          <li>
-            <img src="assets/java.png" alt="java" />
-            <span>JAVA</span>
-          </li>
-          <li>
-            <img src="assets/ux.png" alt="ux" />
-            <span>UI/UX</span>
-          </li>
+          {skills.map((el, key) => (
+            <li key={key} className="skills-list-item">
+              <img src={el.img} alt={el.title} />
+              <span>{el.title}</span>
+            </li>
+          ))}
         </ul>
       </div>
     </section>

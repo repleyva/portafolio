@@ -8,82 +8,31 @@ import {
   InsertComment,
 } from "@mui/icons-material";
 import { makeStyles } from "@mui/styles";
+import { navbar } from "../../utils/data";
 
 const Navbar = () => {
   const classes = useStyles();
   return (
     <nav className="nav">
       <ul className="ul-nav">
-        <li className="nav-item">
-          <Link
-            className="nav-link"
-            activeClass={`${classes.active}`}
-            spy={true}
-            to="banner"
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <Home className={classes.icon} />
-            <span className="nav-span active-start">INICIO</span>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className="nav-link"
-            activeClass={`${classes.active}`}
-            spy={true}
-            to="profile"
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <PersonPin className={classes.icon} />
-            <span className="nav-span">RUSVEL PASOS</span>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className="nav-link"
-            activeClass={`${classes.active}`}
-            spy={true}
-            to="skills"
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <Code className={classes.icon} />
-            <span className="nav-span">HABILIDADES</span>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className="nav-link"
-            activeClass={`${classes.active}`}
-            spy={true}
-            to="portfolio"
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <PhotoLibrary className={classes.icon} />
-            <span className="nav-span">PORTAFOLIO</span>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className="nav-link"
-            activeClass={`${classes.active}`}
-            spy={true}
-            to="contact"
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <InsertComment className={classes.icon} />
-            <span className="nav-span">CONTACTO</span>
-          </Link>
-        </li>
+        {navbar.map((item, index) => (
+          <li className="nav-item" key={index}>
+            <Link
+              className="nav-link"
+              activeClass={`${classes.active}`}
+              spy={true}
+              to={item.to}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <Home className={classes.icon} />
+              <span className={"nav-span " + item.active}>
+                {item.title.toUpperCase()}
+              </span>
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

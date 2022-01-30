@@ -33,3 +33,77 @@ export const data = [
     desc: "Sitio Responsivo/React/CSS/Material UI",
   },
 ];
+
+export const skills = [
+  {
+    title: "HTML",  
+    img: "assets/html.png",
+  },
+  {
+    title: "CSS",
+    img: "assets/css.png",
+  },
+  {
+    title: "JS",
+    img: "assets/javascript.png",
+  },
+  {
+    title: "React",
+    img: "assets/react.png",
+  },
+  {
+    title: "JAVA",
+    img: "assets/java.png",
+  },
+  {
+    title: "UI/UX",
+    img: "assets/ux.png",
+  },
+]
+
+export const social = [
+  {
+    title: "Github",
+    img: "assets/github.png",
+    src: "https://github.com/repleyva",
+  },
+  {
+    title: "Linkedin",
+    img: "assets/linkedin.png",
+    src: "https://www.linkedin.com/in/rusvel-enrique-pasos-leyva-969b9918b/",
+  },
+  {
+    title: "Twitter",
+    img: "assets/twitter.png",
+    src: "https://twitter.com/repleyva",
+  },
+  {
+    title: "Whatsapp",
+    img: "assets/whatsapp.png",
+    src: "https://wa.me/+573126044003/?text=Hola Rusvel, ¿Cómo estás?, %0AMe comunico contigo desde tu portafolio web. Me gustaría solicitar tus servicios como desarrollador.",
+  }
+];
+
+export const navbar = [
+  {
+    to: "banner",
+    title: "Inicio",
+    active: "active-start",
+  },
+  {
+    to: "profile",
+    title: "Rusvel Pasos",
+  },
+  {
+    to: "skills",
+    title: "Habilidades",
+  },
+  {
+    to: "portfolio",
+    title: "Portafolio",
+  },
+  {
+    to: "contact",
+    title: "Contacto",
+  }
+];
