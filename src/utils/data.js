@@ -1,3 +1,4 @@
+
 export const data = [
   {
     title: "Yolo E-Commerce",
@@ -36,7 +37,7 @@ export const data = [
 
 export const skills = [
   {
-    title: "HTML",  
+    title: "HTML",
     img: "assets/html.png",
   },
   {
@@ -59,7 +60,7 @@ export const skills = [
     title: "UI/UX",
     img: "assets/ux.png",
   },
-]
+];
 
 export const social = [
   {
@@ -81,7 +82,7 @@ export const social = [
     title: "Whatsapp",
     img: "assets/whatsapp.png",
     src: "https://wa.me/+573126044003/?text=Hola Rusvel, ¿Cómo estás?, %0AMe comunico contigo desde tu portafolio web. Me gustaría solicitar tus servicios como desarrollador.",
-  }
+  },
 ];
 
 export const navbar = [
@@ -105,5 +106,5 @@ export const navbar = [
   {
     to: "contact",
     title: "Contacto",
-  }
+  },
 ];

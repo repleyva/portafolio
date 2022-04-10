@@ -26,7 +26,15 @@ const Navbar = () => {
               offset={0}
               duration={500}
             >
-              <Home className={classes.icon} />
+              {item.to === "banner" && <Home className={classes.icon} />}
+              {item.to === "profile" && <PersonPin className={classes.icon} />}
+              {item.to === "skills" && <Code className={classes.icon} />}
+              {item.to === "portfolio" && (
+                <PhotoLibrary className={classes.icon} />
+              )}
+              {item.to === "contact" && (
+                <InsertComment className={classes.icon} />
+              )}
               <span className={"nav-span " + item.active}>
                 {item.title.toUpperCase()}
               </span>
