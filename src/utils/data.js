@@ -37,6 +37,18 @@ export const data = [
 
 export const skills = [
   {
+    title: "Android",
+    img: "assets/android.png",
+  },
+  {
+    title: "KOTLIN",
+    img: "assets/kotlin.png",
+  },
+  {
+    title: "JAVA",
+    img: "assets/java.png",
+  },
+  {
     title: "HTML",
     img: "assets/html.png",
   },
@@ -49,16 +61,20 @@ export const skills = [
     img: "assets/javascript.png",
   },
   {
-    title: "React",
+    title: "REACT",
     img: "assets/react.png",
   },
   {
-    title: "JAVA",
-    img: "assets/java.png",
+    title: "R-NATIVE",
+    img: "assets/react-native.png",
   },
   {
     title: "UI/UX",
     img: "assets/ux.png",
+  },
+  {
+    title: "PYTHON",
+    img: "assets/python.png",
   },
 ];
 
