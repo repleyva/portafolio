@@ -3,7 +3,7 @@ export const data = [
   {
     title: "Crypto Currency App",
     img: "assets/compose_currency.png",
-    link: "https://ecommerce-yolo-app.netlify.app/",
+    link: "https://github.com/repleyva/ComposeCryptoCurrency",
     desc: "Aplicación Android/Clean Architecture/MVVM/Jetpack Compose",
   },
   {
