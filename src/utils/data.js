@@ -1,6 +1,12 @@
 
 export const data = [
   {
+    title: "Compose Note App",
+    img: "assets/compose_note.png",
+    link: "https://github.com/repleyva/compose-note-app",
+    desc: "Aplicación Android/Clean Architecture/MVVM/ROOM/Jetpack Compose",
+  },
+  {
     title: "Compose News App",
     img: "assets/compose_news.png",
     link: "https://github.com/repleyva/ComposeNews",
