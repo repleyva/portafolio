@@ -10,14 +10,13 @@ const Profile = () => {
           <h2>Perfil Profesional</h2>
           <p>
             ¡Hola!, me llamo Rusvel Pasos, soy{" "}
-            <b>Android Mobile developer & Web Developer</b>. Soy un apasionado
+            <b>Ingeniero Electrónico, Android Mobile developer & Web Developer</b>. Soy un apasionado
             por la programación y el desarrollo de aplicativos e interfaces de
             usuario. Trabajo desarrollando aplicativos webs y{" "}
             <b>aplicaciones móviles android nativas</b> haciendo uso de las
             tecnicas mas elegantes como:{" "}
             <i>Patrones MVVM, clean architecture, data binding, Jetpack Compose, entre otros</i>. <br />
-            <br /> Actualmente estoy en último semestre de Ingeniería
-            electrónica. Trabajo de manera conjunta con los clientes para lograr
+            <br />Trabajo de manera conjunta con los clientes para lograr
             una rápida y eficaz solución a cada problema, asesorando y
             coordinando hasta el último detalle.
           </p>
