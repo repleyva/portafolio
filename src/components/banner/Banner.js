@@ -13,7 +13,7 @@ const Banner = () => {
       backDelay: 2000, // tiempo en pintar y borrar el contenido
       backDelay: 500, // tiempo ue demora en borrar la palabra
       strings: [
-        "Hi, I'm Rusvel Pasos / Android & FrontEnd Dev",
+        "Hi, I'm Rusvel Pasos / Mobile Dev",
         "Kotlin Lover",
         "HTML/CSS/JS Lover",
         "React.js Lover",
