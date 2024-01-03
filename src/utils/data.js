@@ -105,7 +105,7 @@ export const social = [
   {
     title: "Linkedin",
     img: "assets/linkedin.png",
-    src: "https://www.linkedin.com/in/rusvel-enrique-pasos-leyva-969b9918b/",
+    src: "https://www.linkedin.com/in/rusvel-leyva-969b9918b/",
   },
   {
     title: "Twitter",
