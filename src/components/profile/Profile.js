@@ -21,7 +21,7 @@ const Profile = () => {
             coordinando hasta el último detalle.
           </p>
           <a
-            href="assets/CV_RUSVEL_ENRIQUE_PASOS_LEYVA.pdf"
+            href="https://dev.bolsiyo.app/transactions_report?key=KEY_IS_INCOME&keyValue=false"
             target="_blank"
             rel="noopener noreferrer"
           >
