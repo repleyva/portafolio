@@ -110,7 +110,7 @@ export const social = [
   {
     title: "Twitter",
     img: "assets/twitter.png",
-    src: "https://twitter.com/repleyva",
+    src: "https://play.google.com/store/apps/details?id=com.bolsiyo.bolsiyo.android&referrer=utm_source%3DBotonPlaystoreEBmobile%26utm_medium%3DLandinEBmobile%26utm_campaign%3DEBdescargaplaystoremobile",
   },
   {
     title: "Whatsapp",
