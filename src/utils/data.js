@@ -108,9 +108,9 @@ export const social = [
     src: "https://www.linkedin.com/in/rusvel-leyva-969b9918b/",
   },
   {
-    title: "Twitter",
-    img: "assets/twitter.png",
-    src: "https://mi.bolsiyo.app/calculator?key=KEY_CALCULATOR_MODE&keyValue=EXPENSE&origin=origin_portal_emprendedores&action=boton_salidas",
+    title: "X",
+    img: "assets/x.png",
+    src: "https://x.com/repleyva",
   },
   {
     title: "Whatsapp",
