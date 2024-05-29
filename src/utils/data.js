@@ -110,7 +110,7 @@ export const social = [
   {
     title: "Twitter",
     img: "assets/twitter.png",
-    src: "https://play.google.com/store/apps/details?id=com.bolsiyo.bolsiyo.android&referrer=utm_source%3DBotonPlaystoreEBmobile%26utm_medium%3DLandinEBmobile%26utm_campaign%3DEBdescargaplaystoremobile",
+    src: "https://mi.bolsiyo.app/calculator?key=KEY_CALCULATOR_MODE&keyValue=EXPENSE&origin=origin_portal_emprendedores&action=boton_salidas",
   },
   {
     title: "Whatsapp",
